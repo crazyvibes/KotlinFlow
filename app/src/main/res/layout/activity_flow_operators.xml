@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.crazyvibes.kotlinFlow.FlowOperators">
+    tools:context="com.crazyvibes.kotlinFlow.FlowOperators5">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

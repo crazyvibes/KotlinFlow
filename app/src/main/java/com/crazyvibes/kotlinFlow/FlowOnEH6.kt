@@ -7,7 +7,7 @@ import com.crazyvibes.KotlinFlow.R
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 
-class FlowOnEH : AppCompatActivity() {
+class FlowOnEH6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flow_on_eh)

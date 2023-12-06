@@ -9,9 +9,8 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import kotlin.system.measureTimeMillis
-import kotlin.time.measureTime
 
-class FlowOperators : AppCompatActivity() {
+class FlowOperators5 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flow_operators)

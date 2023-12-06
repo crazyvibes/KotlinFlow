@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.crazyvibes.KotlinFlow.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
 //- To solve this problem we use buffer.
 //- And vice-versa
 
-//-Old approach, if producer produce the data fast and consumer unable to consumer then block producer thread.
+//-Old approach, if producer produce the data fast and consumer unable to consume then block producer thread.
 //-Similarly, If consumer consumes the data fast and producer unable to produce the data then block the consumer thread.
 
 //New approach for above case, we do not block the thread in kotlin, we use coroutine and suspend the producer or consumer coroutine.

@@ -7,10 +7,8 @@ import com.crazyvibes.KotlinFlow.R
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.flow
 
-class SharedFlow : AppCompatActivity() {
+class SharedFlow7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shared_flow)
@@ -55,4 +53,4 @@ class SharedFlow : AppCompatActivity() {
 //- Every consumers get same data.
 //- there are two types fo shared flow: Mutable and Immutable(read only)
 //- In the above code both consumers will get same data.
-//- reply is basically used for if any consumer join later then we can store and pass some recent values.
+//- reply is basically used for if any consumer joins later then we can store and pass some recent values.
